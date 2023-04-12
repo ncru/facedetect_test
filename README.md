@@ -1,4 +1,4 @@
-# Face Detection App
+# Face Detection App (real-time)
 
 **What is this?**
 
