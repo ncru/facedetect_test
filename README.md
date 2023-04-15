@@ -20,7 +20,18 @@ To run, use `app-df.py`.
 	- database (db) folder is used for [One-Shot Learning](https://serokell.io/blog/nn-and-one-shot-learning). multiple faces/expressions can be used as a baseline to compare to our model used.
 		- it compares input img from video camera to our base pics in the db, with the help of our model
 
-### DeepFace
+### OpenCV - Bounding Box
 To run, use `app-cv.py`.
 - Simple face detection using [Haar Cascade Classifier](https://medium.com/analytics-vidhya/haar-cascades-explained-38210e57970d).
 - Outputs face recognition bounding box, along with x, y coordinates of bounding box.
+
+
+### OpenCV - Face Landmarks
+To run, use `app-cv-2.py`.
+- Simple face detection same as `app-cv`, but with facial landmarks.
+- Outputs face recognition bounding box, and points for facial landmarks.
+
+### MediaPipe
+To run, use `app-mp-land.py`.
+- Simple face detection with face mesh.
+- Outputs face recognition face mesh.
