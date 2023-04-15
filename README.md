@@ -8,6 +8,7 @@
 	- [MTCNN](https://pypi.org/project/mtcnn/)
 	- [OpenCV-Python](https://pypi.org/project/opencv-python/)
 	- [TensorFlow](https://pypi.org/project/tensorflow/)
+	- [MediaPipe](https://github.com/google/mediapipe)
 
 **Note: create a virtual environment first, then install requirements:**
 - `python -m venv ./venv`
